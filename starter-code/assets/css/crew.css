@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+:root{
+    --family1: 'Rubik', sans-serif;
+    --family2: 'Noto Naskh Arabic', serif;
+    --family3: 'Roboto Condensed', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(../crew/background-crew-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+
+div.offcanvas{
+    backdrop-filter: blur(25px);
+    background-color: transparent;
+}
+
+
+ul{
+    background-image: linear-gradient(to right,#2e3138,#171a25,#282832);
+    height: 60px;
+    width: 700px;
+    padding-left: 90px;
+}
+
+
+ul > li{
+    padding: 22px 0px;
+}
+
+
+ul > li > a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgba(178, 172, 172, 0.724);
+    font-family: var(--family1);
+    font-size: 13px;
+    transition: .5s;  
+}
+
+
+ul > li > a:visited{
+    color: rgba(178, 172, 172, 0.724) ;
+}
+
+span{
+    color: white;
+}
+
+main{
+    margin-top: 160px;
+}
+
+
+div.parag{
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    color: rgba(255, 255, 255, 0.775);
+    font-family: var(--family3);
+}
+
+span.span1{
+    color: rgba(255, 255, 255, 0.285);
+    font-size: 18px;
+}
+
+div.parag > p{
+    padding-left: 20px;
+    font-size: 18px;
+
+}
+
+
+div.cover2 > img{
+    height: 370px;
+}
+
+div.cover1 > h1{
+    margin-top: 15px;
+    color: white;
+    font-family: var(--family2);
+    font-weight: 100;
+    font-size: 30px;
+
+}
+
+div.cover1 > p{
+    color: rgba(255, 255, 255, 0.423);
+    font-family: var(--family1);
+    margin-top: 60px;
+}
+
+div.cover1 > p~p{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+div.logo{
+    margin-left: 50px;
+}
+
+ul{
+    background-image: linear-gradient(to right,#2e3138,#171a25,#282832);
+    height: 60px;
+    width: 700px;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul > li{
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+ul > li > a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.439);
+    font-family: var(--family1);
+    font-size: 13px;
+}
+
+a:hover{
+    background-color:transparent;
+    height: 38px;
+    border: 2px solid white;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+
+span{
+    color: white;
+}
+
+hr{
+    position: relative;
+    z-index: 1;
+    left: 180px;
+    bottom: 32px;
+    width: 530px;
+    border: 0.5px solid rgba(255, 255, 255, 0.078);
+}
+
+
+
+div.parag{
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    color: rgba(255, 255, 255, 0.775);
+    font-family: var(--family3);
+}
+
+span.span1{
+    color: rgba(255, 255, 255, 0.285);
+    font-size: 18px;
+}
+
+div.parag > p{
+    padding-left: 20px;
+    font-size: 18px;
+
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 160px;
+}
+
+div.cover1 > img{
+    height: 370px;
+}
+
+div.cover2 > h1{
+    margin-top: 15px;
+    color: white;
+    font-family: var(--family2);
+    font-weight: 100;
+    font-size: 30px;
+
+}
+
+div.cover2 > p{
+    color: rgba(255, 255, 255, 0.423);
+    font-family: var(--family1);
+    margin-top: 60px;
+}
+
+div.cover2 > p~p{
+    margin-top: 30px;
+}
+
+
+
+div.cover3{
+    display: flex;
+    justify-content: space-between;
+}
+
+ */

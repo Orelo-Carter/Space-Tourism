@@ -1,0 +1,298 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+
+:root{
+    --family1: 'Rubik', sans-serif;
+    --family2: 'Noto Naskh Arabic', serif;
+    --family3: 'Roboto Condensed', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-image: url(../home/background-home-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+div.offcanvas{
+    backdrop-filter: blur(25px);
+    background-color: transparent;
+}
+
+
+ul{
+    background-image: linear-gradient(to right, #181d2b,#55637d,#10284c);
+    height: 60px;
+    width: 700px;
+    padding-left: 70px;
+
+}
+
+
+ul > li{
+    padding: 22px 0px;
+}
+
+
+ul > li > a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgba(178, 172, 172, 0.724);
+    font-family: var(--family1);
+    font-size: 13px;
+    transition: .5s;  
+}
+
+
+ul > li > a:visited{
+    color: rgba(178, 172, 172, 0.724) ;
+}
+
+
+ul > li:hover > a::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: white;
+    transform: translateX(0%);
+}
+
+
+ul > li > a::after{
+    display: block;
+    height: 2px;
+    margin-top: 20px;
+    background-color:white;
+    transition: 0.5s;
+    transform: translateX(-100%);
+}
+
+
+span{
+    color: white;
+}
+
+
+
+hr{
+    position: relative;
+    z-index: 1;
+    left: 200px;
+    width: 370px;
+    bottom: 70px;
+}
+    
+    
+div.cover2{
+    background-color: #ffffff;
+    font-family: var(--family2);
+    height: 180px;
+    width: 200px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 50%;
+    padding: 80px 0px;
+   font-size: 20px;
+
+}
+
+div.cover{
+    margin-top: 80px !important;
+}
+
+
+div.content > h1{
+    color:white !important;
+    font-family: var(--family2);
+    font-size: 130px;
+    font-weight: 400;
+}
+
+div.content > p~p{
+  /* width: 70%; */
+  line-height:1.8;
+}
+
+div.content > p{
+    color: rgba(255, 255, 255, 0.719);
+    font-family: var(--family3);
+    font-size: 14px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+body{
+    background-image: url(../home/background-home-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+div.logo{
+    margin-left: 50px;
+}
+
+ul{
+    background-image: linear-gradient(to right, #181d2b,#55637d,#10284c);
+    height: 60px;
+    width: 700px;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul > li{
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.209);
+    font-family: var(--family1);
+    font-size: 13px;
+    transition: 0.5s;
+    
+}
+
+ul > li > a::after{
+    display: block;
+    height: 2px;
+    margin-top: 20px;
+    background-color:white;
+    transition: 0.5s;
+    transform: translateX(-100%);
+
+}
+
+ul > li:hover > a::after{
+    content: "";
+    display: block;
+    height: 2px;
+    margin-top: 20px;
+    background-color: white;
+    transform: translateX(0%);
+}
+
+span{
+    color: white;
+}
+
+hr{
+    position: relative;
+    z-index: 1;
+    left: 180px;
+    bottom: 32px;
+    width: 530px;
+    border: 0.5px solid rgba(255, 255, 255, 0.078);
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 0px;
+    padding: 0px 100px;
+    line-height: 1.2;
+}
+
+div.cover1{
+
+}
+
+div.cover1 > p{
+    color: rgba(255, 255, 255, 0.56);
+    font-family: var(--family3);
+    font-size: 14px;
+}
+
+div.cover1 > h1{
+    color: white;
+    font-family: var(--family2);
+    font-size: 130px;
+    font-weight: 400;
+}
+div.cover1 > p~p{
+  width: 40%;
+  line-height:1.5;
+}
+
+div.cover2{
+    background-color: #ffffff;
+    font-family: var(--family2);
+    height: 180px;
+    width: 250px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 50%;
+    padding: 80px 0px;
+    font-family: var(--family2);
+
+}
+
