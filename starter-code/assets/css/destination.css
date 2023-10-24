@@ -38,13 +38,13 @@ ul{
     background-image: linear-gradient(to right,#222a37,#1e2633,#131522);
     height: 60px;
     width: 700px;
-    padding: 18px 0px 18px 80px;
-    list-style-type: none;
+    padding-left: 90px;
 }
 
 
 ul > li{
-    
+    list-style-type: none;
+    padding: 22px 0px;
 }
 
 
@@ -62,7 +62,7 @@ ul > li > a:visited{
     color: rgba(178, 172, 172, 0.724) ;
 }
 
-
+/* 
 ul > li:hover > a::after{
     content: "";
     display: block;
@@ -81,7 +81,7 @@ ul > li > a::after{
     background-color:white;
     transition: 0.5s;
     transform: translateX(-100%);
-}
+} */
 
 
 span{

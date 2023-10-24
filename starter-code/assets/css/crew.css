@@ -46,6 +46,7 @@ ul{
 
 ul > li{
     padding: 22px 0px;
+    list-style-type: none;
 }
 
 
